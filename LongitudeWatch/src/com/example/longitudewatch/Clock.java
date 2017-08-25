@@ -88,7 +88,7 @@ public class Clock extends Activity implements LocationListener{
 			textView3.setText("GPS Latitude:Longitude - "
 					+ String.valueOf(location.getLatitude()) + ":"
 					+ String.valueOf(location.getLongitude()));
-		}
+
 
 
 			Log.v("----------", "----------");
@@ -100,7 +100,7 @@ public class Clock extends Activity implements LocationListener{
 			Log.v("Speed", String.valueOf(location.getSpeed()));
 			Log.v("Bearing", String.valueOf(location.getBearing()));
 		}
-	
+	}
 
 	@Override
 	public void onProviderDisabled(String provider) {
