@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer name="TimerSet_width">230</integer>
-    <integer name="TimerSet_height">80</integer>
-    <integer name="TimerStart_width">230</integer>
-    <integer name="TimerStart_height">80</integer>
+    <integer name="TimerSet_width">300</integer>
+    <integer name="TimerSet_height">150</integer>
+    <integer name="TimerStart_width">300</integer>
+    <integer name="TimerStart_height">150</integer>
 </resources>

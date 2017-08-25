@@ -96,7 +96,7 @@ public class StopWatch extends Activity {
 		Button timerButton=(Button)findViewById(R.id.timer);
 		timerButton.setOnClickListener(new OnClickListener(){
 			public void onClick(View v){
-				Intent intent = new Intent(StopWatch.this,Timer.class);
+				Intent intent = new Intent(StopWatch.this,com.example.longitudewatch.Timer.class);
 				startActivity(intent);
 			}
 		});
