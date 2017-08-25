@@ -89,7 +89,7 @@ public class Clock extends Activity implements LocationListener{
 					+ String.valueOf(location.getLatitude()) + ":"
 					+ String.valueOf(location.getLongitude()));
 
-
+		}
 
 			Log.v("----------", "----------");
 			Log.v("Latitude", String.valueOf(location.getLatitude()));
@@ -99,7 +99,7 @@ public class Clock extends Activity implements LocationListener{
 			Log.v("Time", String.valueOf(location.getTime()));
 			Log.v("Speed", String.valueOf(location.getSpeed()));
 			Log.v("Bearing", String.valueOf(location.getBearing()));
-		}
+		
 	}
 
 	@Override
