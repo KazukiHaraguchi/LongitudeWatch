@@ -15,13 +15,13 @@ import android.widget.TextView;
 import android.os.Handler;
 
 public class StopWatch extends Activity {
-	private boolean cout = false;
 	private Button startButton, stopButton;
 	private TextView timerText;
 
 	private Timer timer;
 	private Handler handler = new Handler();
 	private long count = 0;
+	private boolean reset = true;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -70,17 +70,19 @@ public class StopWatch extends Activity {
 		stopButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				if(cout == true){
+				if(reset == false){
 					if (null != timer) {
 						// Cancel
 						timer.cancel();
 						timer = null;
-						timerText.setText("00:00.0");
-						cout = true;
+//						timerText.setText("00:00.0");
+						stopButton.setText("Reset");
+						reset = true;
 					}
 				}else{
-					
-
+					timerText.setText("00:00.0");
+					stopButton.setText("Stop");
+					reset = false;
 				}
 			}
 		});
