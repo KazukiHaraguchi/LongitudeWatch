@@ -50,7 +50,7 @@
         android:textSize="20dp" />
 
     <TextView
-        android:id="@+id/CloclText"
+        android:id="@+id/ClockText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/clock"
