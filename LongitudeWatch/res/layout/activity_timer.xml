@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/worldclock"
         android:layout_alignBottom="@+id/worldclock"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="16dp"
         android:layout_toRightOf="@+id/timer"
         android:text="ストップウォッチ"
         android:textSize="20dp" />
@@ -44,13 +44,13 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/clock"
         android:layout_alignBottom="@+id/clock"
-        android:layout_marginLeft="24dp"
+        android:layout_marginLeft="16dp"
         android:layout_toRightOf="@+id/stopwatch"
         android:text="世界時計"
         android:textSize="20dp" />
 
     <TextView
-        android:id="@+id/CloclText"
+        android:id="@+id/ClockText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/clock"
