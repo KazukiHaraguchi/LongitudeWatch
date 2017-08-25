@@ -61,22 +61,23 @@
         android:textSize="100dp" />
 
     <Button
-        android:id="@+id/set"
-        android:layout_width="@integer/TimerSet_width"
-        android:layout_height="@integer/TimerSet_height"
-        android:layout_alignLeft="@+id/CloclText"
-        android:layout_below="@+id/CloclText"
-        android:layout_marginTop="142dp"
-        android:text="SetTime"
-        android:textSize="50dp" />
-
-    <Button
         android:id="@+id/start"
         android:layout_width="@integer/TimerStart_width"
         android:layout_height="@integer/TimerStart_height"
-        android:layout_alignBottom="@+id/set"
-        android:layout_alignRight="@+id/CloclText"
+        android:layout_alignRight="@+id/worldclock"
+        android:layout_below="@+id/ClockText"
+        android:layout_marginTop="140dp"
         android:text="Start"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/set"
+        android:layout_width="@integer/TimerSet_width"
+        android:layout_height="@integer/TimerSet_height"
+        android:layout_alignBaseline="@+id/start"
+        android:layout_alignBottom="@+id/start"
+        android:layout_alignLeft="@+id/clock"
+        android:text="SetTime"
         android:textSize="50dp" />
 
 </RelativeLayout>
