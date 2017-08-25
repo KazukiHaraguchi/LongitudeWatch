@@ -40,6 +40,7 @@ public class StopWatch extends Activity {
 					timer.cancel();
 					timer = null;
 				}
+				reset = false;
 
 				// Timer インスタンスを生成
 				timer = new Timer();
