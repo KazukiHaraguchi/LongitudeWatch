@@ -30,6 +30,10 @@
             android:name=".StopWatch"
             android:label="@string/title_activity_stop_watch" >
         </activity>
+        <activity
+            android:name=".WorldClock"
+            android:label="@string/title_activity_world_clock" >
+        </activity>
     </application>
 
 </manifest>

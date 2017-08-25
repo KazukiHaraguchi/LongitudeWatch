@@ -6,5 +6,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_timer">Timer</string>
     <string name="title_activity_stop_watch">StopWatch</string>
+    <string name="title_activity_world_clock">WorldClock</string>
 
 </resources>
