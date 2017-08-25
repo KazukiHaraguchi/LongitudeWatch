@@ -2,9 +2,13 @@ package com.example.longitudewatch;
 
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
 public class WorldClock extends Activity {
 
@@ -12,6 +16,27 @@ public class WorldClock extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_world_clock);
+		Button clockButton=(Button)findViewById(R.id.clock);
+		clockButton.setOnClickListener(new OnClickListener(){
+			public void onClick(View v){
+				Intent intent = new Intent(WorldClock.this,Clock.class);
+				startActivity(intent);
+			}
+		});
+		Button stopwatchButton=(Button)findViewById(R.id.stopwatch);
+		stopwatchButton.setOnClickListener(new OnClickListener(){
+			public void onClick(View v){
+				Intent intent = new Intent(WorldClock.this,StopWatch.class);
+				startActivity(intent);
+			}
+		});
+		Button timerButton=(Button)findViewById(R.id.timer);
+		timerButton.setOnClickListener(new OnClickListener(){
+			public void onClick(View v){
+				Intent intent = new Intent(WorldClock.this,Timer.class);
+				startActivity(intent);
+			}
+		});
 	}
 
 	@Override
