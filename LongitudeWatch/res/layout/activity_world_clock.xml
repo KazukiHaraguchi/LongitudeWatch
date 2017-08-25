@@ -87,4 +87,41 @@
         android:text="ニューヨーク"
         android:textSize="25dp" />
     
+    <TextClock
+        android:id="@+id/usClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:textSize="60sp"
+        android:timeZone="GMT+530"
+        android:format24Hour="HH:mm:ss"
+        android:format12Hour="hh:mm:ss" />
+    
+    <TextView
+        android:id="@+id/usClockText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="60dp"
+        android:text="インド"
+        android:textSize="25dp" />
+    
+    <TextClock
+        android:id="@+id/usClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:textSize="60sp"
+        android:format24Hour="HH:mm:ss"
+        android:format12Hour="hh:mm:ss" />
+    
+    <TextView
+        android:id="@+id/usClockText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="50dp"
+        android:text="イギリス"
+        android:textSize="25dp" />
+    
 </RelativeLayout>
